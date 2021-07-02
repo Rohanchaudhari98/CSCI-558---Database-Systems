@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="normalPlacemark">
+    <IconStyle>
+                         <Icon>
+                <href>http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png</href>
+             </Icon>
+          </IconStyle>
+</Style>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>Tommy Trojan</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2854360735196,34.02073083708017</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Roski</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28735653506423,34.01940585366961</coordinates></Point>
+</Placemark>
+<Placemark><name>Interfaith Com</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28432113172342,34.02314369788436</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Thornton</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2854360735196,34.02329182022096</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Cinematic</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28683249140144,34.02367734679794</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Marshall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28546826002592,34.01879226374124</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Dworak-Peck</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28251783027858,34.022455952269276</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Sol Price</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28359071382307,34.01951256450874</coordinates></Point>
+</Placemark>
+<Placemark><name>McCarthy Quad</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28304056536729,34.02088759534512</coordinates></Point>
+</Placemark>
+<Placemark><name>Cromwell</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28786032534094,34.022085535131936</coordinates></Point>
+</Placemark>
+<Placemark><name>Starbucks</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28218791687927,34.02173592284136</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Viterbi</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28933686587312,34.02070885034971</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Convex Hull</name>
+<Style><LineStyle><color>ffff7d53</color></LineStyle><PolyStyle><color>80fe4d28</color></PolyStyle></Style>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.28546826002592,34.01879226374124 -118.28735653506423,34.01940585366961 -118.28933686587312,34.02070885034971 -118.28683249140144,34.02367734679794 -118.28432113172342,34.02314369788436 -118.28251783027858,34.022455952269276 -118.28218791687927,34.02173592284136 -118.28359071382307,34.01951256450874 -118.28546826002592,34.01879226374124</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon> 
+</Placemark>
+<Placemark><name>Centroid</name>
+<styleUrl>#normalPlacemark</styleUrl>
+<Point><coordinates>-118.28563726685304,34.02123054167791</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>Line</name>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.2854360735196,34.02073083708017 -118.28563726685304,34.02123054167791</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>
